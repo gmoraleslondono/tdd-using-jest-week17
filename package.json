@@ -1,0 +1,19 @@
+{
+  "name": "tdd-using-jest-week17",
+  "version": "1.0.0",
+  "description": "Development approach where we write our test before actually writing the code.",
+  "main": "index.js",
+  "type": "module",
+  "jest": {
+    "transform": {}
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
